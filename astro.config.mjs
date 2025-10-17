@@ -23,9 +23,6 @@ export default defineConfig({
 		{
 		    label: 'Game servers'
 		    autogenerate: { directory: 'games' },
-		{
-		    label: 'Roadmap',
-		    autogenerate: { directory: 'roadmap' },
 		},
 	    ],
 	}),
