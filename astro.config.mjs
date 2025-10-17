@@ -11,6 +11,7 @@ export default defineConfig({
     integrations: [
 	starlight({
 	    title: 'Wiki and references',
+	    tableOfContents: false,
 	    social: [{ icon: 'github', label: 'Source', href: 'https://github.com/Zauraac/wiki' }],
 	    sidebar: [
 		{
