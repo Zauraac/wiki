@@ -10,19 +10,22 @@ export default defineConfig({
     
     integrations: [
 	starlight({
-	    title: 'My Docs',
-	    social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+	    title: 'Wiki and references',
+	    social: [{ icon: 'github', label: 'Source', href: 'https://github.com/Zauraac/wiki' }],
 	    sidebar: [
 		{
-		    label: 'Guides',
+		    label: 'Guide',
 		    items: [
 			// Each item here is one entry in the navigation menu.
-			{ label: 'Example Guide', slug: 'guides/example' },
+			{ label: 'Navigating the Guide', slug: 'guide/example' },
 		    ],
 		},
 		{
-		    label: 'Reference',
-		    autogenerate: { directory: 'reference' },
+		    label: 'Game servers'
+		    autogenerate: { directory: 'games' },
+		{
+		    label: 'Roadmap',
+		    autogenerate: { directory: 'roadmap' },
 		},
 	    ],
 	}),
