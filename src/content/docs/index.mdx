@@ -1,29 +1,42 @@
 ---
-title: Welcome to the Wiki!
-description: Homepage for Wiki
-template: splash # Remove or comment out this line to display the site sidebar on this page.
+title: Welcome!
+description: Homepage 
+template: splash 
 hero:
-  tagline: This is documentation to connect to various services hosted on this platform. 
-  image:
-    file: ../../assets/houston.webp
+  tagline: Documentation to set up and connect to various hosted services. 
   actions:
     - text: Roadmap
       link: /roadmap/roadmap
-      icon: right-arrow
+      icon: list-format
+      iconPlacement: start
+      variant: primary
+    - text: Source
+      link: https://github.com/Zauraac/wiki
+      icon: github
+      iconPlacement: start
+      variant: secondary
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+You'll find all sorts of information here on how to set up services and game servers. 
 
-## Next steps
+# Game servers
+import { CardGrid, LinkCard } from '@astrojs/starlight/components';
+<CardGrid>
+    <LinkCard title="Minecraft" href="/games/minecraft/getting-started" />
+    <LinkCard title="Stardew Valley" href="/games/stardew/getting-started" />
+</CardGrid>
 
-<CardGrid stagger>
-	<Card title="To contribute" icon="pencil">
-		If you *can* contribute, you know how to already. 
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
-	<Card title="Built with Astro + Starlight" icon="setting">
-		Learn more in the [Astro Docs](https://docs.astro.build/en/getting-started/) and [Starlight Docs](https://starlight.astro.build/).
-	</Card>
+# Services
+<CardGrid>
+    <LinkCard title="VPN" href="/services/vpn" />
+    <LinkCard title="3D Printing" href="/services/3dprinting" />
+    <LinkCard title="Wiki" href="/services/wiki" />
+</CardGrid>
+
+# External documentation
+<CardGrid>
+    <LinkCard title="Astro documentation" href="https://docs.astro.build./en/getting-started/"
+    />
+    <LinkCard title="Starlight documentation" href="https://starlight.astro.build/"
+    />
 </CardGrid>
