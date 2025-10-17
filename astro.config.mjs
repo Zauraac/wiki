@@ -21,7 +21,7 @@ export default defineConfig({
 		    ],
 		},
 		{
-		    label: 'Game servers'
+		    label: 'Game servers',
 		    autogenerate: { directory: 'games' },
 		},
 	    ],
