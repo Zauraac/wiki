@@ -12,8 +12,21 @@ export default defineConfig({
 	starlight({
 	    title: 'Wiki and references',
 	    tableOfContents: false,
-	    social: [{ icon: 'github', label: 'Source', href: 'https://github.com/Zauraac/wiki' }],
+	    social: [
+		{ icon: 'github', label: 'Source', href: 'https://github.com/Zauraac/wiki' },
+	    ],
 	    sidebar: [
+		{
+		    label: 'Services'
+		    autogenerate: { directory :'services' },
+		}
+		{
+		    label: 'Minecraft',
+		    autogenerate: { directory: 'games/minecraft' },
+		},
+		{
+		    label: 'Stardew Valley'
+		    autogenerate: { directory: 'games/stardew' },
 		{
 		    label: 'Roadmap',
 		    items: [
@@ -22,8 +35,11 @@ export default defineConfig({
 		    ],
 		},
 		{
-		    label: 'Minecraft',
-		    autogenerate: { directory: 'games/minecraft' },
+		    label: 'Roadmap',
+		    items: [
+			// Each item here is one entry in the navigation menu.
+			{ label: 'Planned features', slug: 'roadmap/roadmap' },
+		    ],
 		},
 	    ],
 	}),
