@@ -1,6 +1,8 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import starlightThemeGalaxy from 'starlight-theme-galaxy';
+import { Badge } from '@astrojs/starlight/components'
 
 // https://astro.build/config for more information
 export default defineConfig({
@@ -10,8 +12,11 @@ export default defineConfig({
     
     integrations: [
 	starlight({
-	    title: 'Wiki and references',
+	    title: 'Zauraac - Wiki',
 	    tableOfContents: false,
+	    plugins: [
+		starlightThemeGalaxy()
+	    ],
 	    social: [
 		{ icon: 'github', label: 'Source', href: 'https://github.com/Zauraac/wiki' },
 	    ],
@@ -25,7 +30,7 @@ export default defineConfig({
 		    autogenerate: { directory: 'games/minecraft' },
 		},
 		{
-		    label: 'Stardew Valley'
+		    label: 'Stardew Valley <Badge text="New!" variant="success"/>'
 		    autogenerate: { directory: 'games/stardew' },
 		{
 		    label: 'Roadmap',
