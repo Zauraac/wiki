@@ -23,7 +23,7 @@ export default defineConfig({
 		},
 		{
 		    label: 'Game servers',
-		    autogenerate: { directory: 'games' },
+		    autogenerate: { directory: 'games/minecraft' },
 		},
 	    ],
 	}),
