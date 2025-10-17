@@ -14,10 +14,10 @@ export default defineConfig({
 	    social: [{ icon: 'github', label: 'Source', href: 'https://github.com/Zauraac/wiki' }],
 	    sidebar: [
 		{
-		    label: 'Guide',
+		    label: 'Roadmap',
 		    items: [
 			// Each item here is one entry in the navigation menu.
-			{ label: 'Navigating the Guide', slug: 'guide/example' },
+			{ label: 'Planned features', slug: 'roadmap/roadmap' },
 		    ],
 		},
 		{
