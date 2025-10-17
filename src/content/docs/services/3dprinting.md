@@ -1,5 +1,5 @@
 ---
-Title: 3D Printers
+title: 3D Printers
 ---
 
 # Slicing
