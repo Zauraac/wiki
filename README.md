@@ -1,6 +1,6 @@
 # Personal wiki
 
-[Built with Starlight](https://starlight.astro.build)
+[Built with Starlight](https://starlight.astro.build), [Nginx](https://en.wikipedia.org/wiki/Nginx) and [Cloudflared Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/).
 
 ## Structure
 ### Pages
