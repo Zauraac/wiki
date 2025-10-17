@@ -1,8 +1,6 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
-import starlightThemeGalaxy from 'starlight-theme-galaxy';
-// import { Badge } from '@astrojs/starlight/components';
 
 // https://astro.build/config for more information
 export default defineConfig({
@@ -14,9 +12,6 @@ export default defineConfig({
 	starlight({
 	    title: 'Zauraac - Wiki',
 	    tableOfContents: false,
-	    plugins: [
-		starlightThemeGalaxy()
-	    ],
 	    social: [
 		{ icon: 'github', label: 'Source', href: 'https://github.com/Zauraac/wiki' },
 	    ],
