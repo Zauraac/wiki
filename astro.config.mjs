@@ -7,41 +7,33 @@ export default defineConfig({
     // basic site config
     site: "https://wiki.zauraac.xyz",
     trailingSlash: "ignore",
-    
     integrations: [
-	starlight({
-	    title: 'Zauraac - Wiki',
-	    tableOfContents: false,
-	    social: [
-		{ icon: 'github', label: 'Source', href: 'https://github.com/Zauraac/wiki' },
-	    ],
-	    sidebar: [
-		{
-		    label: 'Services'
-		    autogenerate: { directory :'services' },
-		}
-		{
-		    label: 'Minecraft',
-		    autogenerate: { directory: 'games/minecraft' },
-		},
-		{
-		    label: 'Stardew Valley <Badge text="New!" variant="success"/>'
-		    autogenerate: { directory: 'games/stardew' },
-		{
-		    label: 'Roadmap',
-		    items: [
-			// Each item here is one entry in the navigation menu.
-			{ label: 'Planned features', slug: 'roadmap/roadmap' },
-		    ],
-		},
-		{
-		    label: 'Roadmap',
-		    items: [
-			// Each item here is one entry in the navigation menu.
-			{ label: 'Planned features', slug: 'roadmap/roadmap' },
-		    ],
-		},
-	    ],
-	}),
+        starlight({
+            title: 'Zauraac - Wiki',
+            tableOfContents: false,
+            social: [
+                { icon: 'github', label: 'Source', href: 'https://github.com/Zauraac/wiki' },
+            ],
+            sidebar: [
+                {
+                    label: 'Services',
+                    autogenerate: { directory: 'services' },
+                },
+                {
+                    label: 'Minecraft',
+                    autogenerate: { directory: 'games/minecraft' },
+                },
+                {
+                    label: 'Stardew Valley',
+                    autogenerate: { directory: 'games/stardew' },
+                },
+                {
+                    label: 'Roadmap',
+                    items: [
+                        { label: 'Planned features', slug: 'roadmap/roadmap' },
+                    ],
+                },
+            ],
+        }),
     ],
 });
