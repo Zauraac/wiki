@@ -15,6 +15,10 @@ export default defineConfig({
                 { icon: 'github', label: 'Source', href: 'https://github.com/Zauraac/wiki' },
             ],
             sidebar: [
+                { 
+		    label: 'Navigation',
+                    slug: 'guide/navigation',
+                },
                 {
                     label: 'Services',
                     autogenerate: { directory: 'services' },
@@ -29,9 +33,7 @@ export default defineConfig({
                 },
                 {
                     label: 'Roadmap',
-                    items: [
-                        { label: 'Planned features', slug: 'roadmap/roadmap' },
-                    ],
+                    slug: 'roadmap/roadmap',
                 },
             ],
         }),
