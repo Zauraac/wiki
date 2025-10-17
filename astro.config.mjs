@@ -18,7 +18,7 @@ export default defineConfig({
 		    label: 'Roadmap',
 		    items: [
 			// Each item here is one entry in the navigation menu.
-			{ label: 'Planned features', slug: 'roadmap/' },
+			{ label: 'Planned features', slug: 'roadmap/roadmap' },
 		    ],
 		},
 		{
