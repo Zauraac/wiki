@@ -8,19 +8,20 @@ description: Roadmap
     - [ ] [Oh-my-posh](https://github.com/Zauraac/oh-my-posh_configs)
     - [ ] Alpine on Luckfox Pico Ultra
     - [ ] [Neovim](https://github.com/Zauraac/vim-config)
+    - [x] ZeroTierOne VPN
 
 - Guides for game servers
     - Minecraft
 	- [x] Vanilla Paper
 	- [ ] Modded
-    - [ ] Stardew Valley
+    - [x] Stardew Valley
     - And others! 
 
 # Planned modifications to the Wiki
-
 ## Improvements
 - [ ] Add a global theme
-
+- [ ] Add a set order to the pages in sidebar (if it shows up in the wrong order)
+- [ ] Add a 'start' menu. 
 ## Bugfixes
 - [x] Remove the 'On this page' thingimajig. 
     - At the very least, make it less big. 
