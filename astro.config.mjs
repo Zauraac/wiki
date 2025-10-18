@@ -10,6 +10,9 @@ export default defineConfig({
     trailingSlash: "ignore",
     integrations: [
         starlight({
+	    logo: {
+		light: './src/assets/logo-light.svg'
+		dark: './srx/assets/logo-dark.svg'
 	    plugins: [
 		starlightThemeBlack({
 		    footerText: 'Built with spite, weaponized autism and plenty of swearing.',
@@ -30,26 +33,25 @@ export default defineConfig({
 		    label: 'General',
 		    items: [
 			{ slug: 'navigation' },
-			{ slug: 'roadmap/roadmap' },
+			{ label: 'Roadmap', slug: 'roadmap/roadmap' },
 		    ],
-                },
-                {
-                    label: 'Services',
-                    autogenerate: { directory: 'services' },
                 },
 		{
-		    label: 'Games',
-		    items: [
-			{
-			    label: 'Minecraft',
-			    autogenerate: { directory: 'games/minecraft' },
-			},
-			{
-			    label: 'Stardew Valley',
-			    autogenerate: { directory: 'games/stardew' },
-			},
-		    ],
+		    label: 'Minecraft',
+		    autogenerate: { directory: 'games/minecraft' },
 		},
+		{
+		    label: 'Stardew Valley',
+		    autogenerate: { directory: 'games/stardew' },
+		},
+                {
+                    label: 'Services',
+		    items: [
+			{ slug: 'services/wiki' },
+			{ label: 'VPN', slug: 'services/vpn/getting-started' },
+			{ slug: 'services/3dprinting' },
+		    ]
+                },
             ],
         }),
     ],
