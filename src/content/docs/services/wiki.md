@@ -6,7 +6,7 @@ sidebar:
   badge:
     text: WIP
     variant: caution
-  label: 3D Printing
+  label: Wiki
   order: 0
 banner:
   content: This section is still under construction.
