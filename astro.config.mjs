@@ -11,8 +11,9 @@ export default defineConfig({
     integrations: [
         starlight({
 	    logo: {
-		light: './src/assets/logo-light.svg'
-		dark: './srx/assets/logo-dark.svg'
+		light: './src/assets/logo-light.svg',
+		dark: './srx/assets/logo-dark.svg',
+	    },
 	    plugins: [
 		starlightThemeBlack({
 		    footerText: 'Built with spite, weaponized autism and plenty of swearing.',
