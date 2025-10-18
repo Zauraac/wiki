@@ -12,7 +12,7 @@ export default defineConfig({
         starlight({
 	    logo: {
 		light: './src/assets/logo-light.svg',
-		dark: './srx/assets/logo-dark.svg',
+		dark: './src/assets/logo-dark.svg',
 	    },
 	    plugins: [
 		starlightThemeBlack({
