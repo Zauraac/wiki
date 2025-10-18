@@ -24,7 +24,7 @@ export default defineConfig({
 		})
 	    ],
             title: 'Zauraac - Wiki',
-            tableOfContents: false,
+            tableOfContents: true,
             social: [
                 { icon: 'github', label: 'Source', href: 'https://github.com/Zauraac/wiki' },
 		{ icon: 'discord', label: 'Discord', href: 'https://discord.gg/invite/Nabv2D8' },
