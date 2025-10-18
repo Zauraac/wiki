@@ -1,8 +1,8 @@
 ---
-title: VPN
+title: Zerotier One
+sidebar:
+  order: 2
 ---
-
-# ZeroTier One
 Install [ZeroTier One](https://github.com/zerotier/ZeroTierOne) on your machine. 
 
 **Windows**:

@@ -1,0 +1,76 @@
+---
+title: Customization
+next: false
+sidebar:
+  order: 5
+  badge:
+    text: WIP
+    variant: caution
+banner:
+  content: WARNING! You can fuck up your game if you delete the wrong thing here. Proceed at your own risk.
+---
+import { FileTree } from '@astrojs/starlight/components';
+import { Aside } from '@astrojs/starlight/components';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+
+Minecraft, being quite the [old game](https://minecraft.fandom.com/wiki/Java_Edition_pre-Classic), has a lot of options for customization. 
+
+<Aside type="caution" title="Check your version!">
+You must have the Java edition of Minecraft to customize it this way. 
+</Aside>
+
+# How to find your files
+Your files will be found in different places, depending on your OS.
+<Tabs>
+  <TabItem label="Windows">
+    Your installation will typically be found in the following directory:
+    ```
+    C:\Users\[USER]\AppData\Roaming\.minecraft
+    ```
+    To find the directory, type %APPDATA% and open the `.minecraft` folder.
+  </TabItem>
+
+  <TabItem label="macOS">
+    Your installation will typically be found in the `Library/Application Support` directory. 
+    To access it, open the Finder, click on the `Go` menu, select `Library`, then `Application support`. You'll find Minecraft there.
+  </TabItem>
+
+  <TabItem label="Linux">
+    ```
+    ~/.minecraft
+    ```
+    *You'd think I'd write out a complex guide for Linux? Y'all know at this point.*
+  </TabItem>
+</Tabs>
+
+# In the files
+In there, you'll find a plethora of directories and files. 
+The most important ones will be highlighted. 
+
+<FileTree>
+- assets/
+- bin/
+- downloads/
+- libraries/
+- logs/
+- **mods/** <- Add extra functionality to your game here
+- quickPlay/
+- **resourcepacks/** <- To add custom textures
+    - ...
+- **saves/** <- This is where you'll find your worlds. 
+    - ...
+- **screenshots/** <- Do I have to explain it? 
+    - ...
+- stagins/
+- versions/
+- webcache2/
+- ...
+</FileTree>
+
+You likely won't touch those files often. 
+
+## Resource Packs
+By default, Minecraft's textures are rendered in 16x16.
+You can [download resource packs here](https://resourcepack.net/). Some packs like Faithful will add [32x32](https://faithfulpack.net/downloads#Faithful-32x), [64x64](https://faithfulpack.net/downloads#Faithful-64x), or even higher resolutions to the game, while others like [Brixel](https://resourcepack.net/brixel-resource-pack/) will completely change the look of the game by changing the blocks by Lego-like bricks. 
+
+To add a resource pack to your installation, simply drag-and-drop the `.zip` file that you will have downloaded into the ``resourcepacks` directory. 

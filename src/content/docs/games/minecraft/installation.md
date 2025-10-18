@@ -1,8 +1,9 @@
 --- 
 title: Installation
+sidebar:
+  order: 2
 ---
-# Installation
-Here are instructions to install Minecraft per platform *(because I'm too lazy to write guides myself)*
+Here are basic instructions to install Minecraft per platform *(because I'm too lazy to write guides myself)*
 You will need to [buy the game to play](https://www.minecraft.net/en-us/store/minecraft-java-bedrock-edition-pc). If you're feeling broke, the cheapest way to buy the game is on mobile (keep on scrolling). 
 [Download Minecraft](https://www.minecraft.net/en-us/download)
 

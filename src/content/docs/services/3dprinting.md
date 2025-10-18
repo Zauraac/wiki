@@ -1,5 +1,12 @@
 ---
 title: 3D Printers
+prev: false
+next: false
+sidebar:
+  badge:
+    text: WIP
+    variant: caution
+  label: 3D Printing
 ---
 
 # Slicing

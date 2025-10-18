@@ -1,9 +1,9 @@
 ---
 title: Getting started
-description: Help with setup
+prev: false
+sidebar:
+  order: 0
 ---
-
-# Information
 This section serves as a tutorial for the first time setup of the Minecraft server. 
 As it stands, it's very much WIP (mid-semester go brr)
 Supported version of Minecraft is **1.21.10**, the most recent version as of 17-10-2025. This is true for both [Java](https://minecraft.wiki/w/Java_Edition_1.21.10) and [Bedrock](https://minecraft.wiki/w/Bedrock_Edition_1.21.20)

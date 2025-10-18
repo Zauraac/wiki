@@ -1,6 +1,8 @@
 ---
 title: Getting started
-tableOfContents: true
+prev: false
+sidebar:
+  order: 0
 ---
 
 Stardew Valley is a very simple game to install, run, and play in a multiplayer setting than Minecraft could dream of being. 
