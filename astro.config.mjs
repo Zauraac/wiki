@@ -14,8 +14,8 @@ export default defineConfig({
 		starlightThemeBlack({
 		    footerText: 'Built with spite, weaponized autism and plenty of swearing.',
 		    navLinks: [
-			{ label: 'Navigation', link 'navigation' },
-			{ label: 'Roadmap', link 'roadmap/roadmap' },
+			{ label: 'Navigation', link: 'navigation' },
+			{ label: 'Roadmap', link: 'roadmap/roadmap' },
 		    ],
 		})
 	    ],
