@@ -49,8 +49,10 @@ export default defineConfig({
                     label: 'Services',
 		    items: [
 			{ slug: 'services/wiki' },
-			{ label: 'VPN', slug: 'services/vpn/getting-started' },
 			{ slug: 'services/3dprinting' },
+			{ label: 'VPN overview', slug: 'services/vpn/getting-started' },
+			{ slug: 'services/vpn/zerotier' },
+			{ slug: 'services/vpn/wireguard' },
 		    ]
                 },
             ],
