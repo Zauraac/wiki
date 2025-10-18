@@ -1,5 +1,7 @@
 ---
 title: Installation
+sidebar:
+  order: 2
 ---
 This can be done either via [Steam](https://store.steampowered.com/app/413150/Stardew_Valley/) or [GOG](https://www.gog.com/en/game/stardew_valley)
 

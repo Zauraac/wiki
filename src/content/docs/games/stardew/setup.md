@@ -1,6 +1,8 @@
 ---
 title: Server setup
 next: false
+sidebar:
+  order: 4
 ---
 1. When you launch the game, select **COOP**, then **Join LAN game**
     *Yes, I know it's not a LAN game, but the game is not really made for dedicated servers.*
