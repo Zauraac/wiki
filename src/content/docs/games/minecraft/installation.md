@@ -13,7 +13,7 @@ For Java and Bedrock: [Launcher for Win10/11](https://aka.ms/minecraftClientGame
 Alternative: [Prism Launcher installer for x64](https://github.com/PrismLauncher/PrismLauncher/releases/download/9.4/PrismLauncher-Windows-MSVC-Setup-9.4.exe)/[ARM](https://github.com/PrismLauncher/PrismLauncher/releases/download/9.4/PrismLauncher-Windows-MSVC-arm64-Setup-9.4.exe)
 
 ### Winget
-- Official launcher: `winget install Mojand.MinecraftLauncher`
+- Official launcher: `winget install Mojang.MinecraftLauncher`
 - Prism: `winget install PrismLauncher`
 
 ## MacOS
