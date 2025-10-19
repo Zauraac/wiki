@@ -30,13 +30,6 @@ export default defineConfig({
 		{ icon: 'discord', label: 'Discord', href: 'https://discord.gg/invite/Nabv2D8' },
             ],
             sidebar: [
-                { 
-		    label: 'General',
-		    items: [
-			{ slug: 'navigation' },
-			{ label: 'Roadmap', slug: 'roadmap/roadmap' },
-		    ],
-                },
 		{
 		    label: 'Minecraft',
 		    autogenerate: { directory: 'games/minecraft' },
@@ -51,8 +44,8 @@ export default defineConfig({
 			{ slug: 'services/wiki' },
 			{ slug: 'services/3dprinting' },
 			{ label: 'VPN overview', slug: 'services/vpn/getting-started' },
-			{ slug: 'services/vpn/zerotier' },
-			{ slug: 'services/vpn/wireguard' },
+			// { slug: 'services/vpn/zerotier' },
+			// { slug: 'services/vpn/wireguard' },
 		    ]
                 },
             ],
