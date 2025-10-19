@@ -2,6 +2,10 @@
 title: Zerotier One
 sidebar:
   order: 2
+prev: 
+  link: /services/vpn/getting-started
+next: 
+  link: /services/vpn/wireguard
 ---
 Install [ZeroTier One](https://github.com/zerotier/ZeroTierOne) on your machine. 
 

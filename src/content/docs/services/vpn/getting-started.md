@@ -1,9 +1,11 @@
 ---
 title: Introduction to VPNs
 prev: false
+next: 
+  link: /services/vpn/zerotier
 sidebar:
   order: 0
-  label: Introduction
+  label: VPN
 ---
 A Virtual Private Network comes in all shapes and sizes, but will usually fulfill one of 3 functions:
 - Reroute your internet traffic to another server for anonimity

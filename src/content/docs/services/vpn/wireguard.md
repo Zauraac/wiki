@@ -1,5 +1,7 @@
 ---
 title: Wireguard
+prev:
+  link: /services/vpn/zerotier
 next: false
 sidebar:
   order: 3
