@@ -3,6 +3,7 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import starlightThemeBlack from 'starlight-theme-black';
 
+
 // https://astro.build/config for more information
 export default defineConfig({
     // basic site config
