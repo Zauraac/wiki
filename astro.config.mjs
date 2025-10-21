@@ -1,7 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
-import starlightThemeBlack from 'starlight-theme-black';
+import { ion } from 'starlight-ion-theme';
 
 
 // https://astro.build/config for more information
@@ -17,11 +17,8 @@ export default defineConfig({
 	    },
 	    favicon: './public/favicon.jpg',
 	    plugins: [
-		starlightThemeBlack({
-		    footerText: 'Built with spite, weaponized autism and plenty of swearing.',
-		    navLinks: [
-			{ label: 'Navigation', link: 'navigation' },
-			{ label: 'Roadmap', link: 'roadmap/roadmap' },
+		ion({
+		    footer.text: 'Built with spite, weaponized autism and plenty of swearing.',
 		    ],
 		})
 	    ],
