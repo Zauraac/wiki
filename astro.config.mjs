@@ -18,9 +18,11 @@ export default defineConfig({
 	    favicon: './public/favicon.jpg',
 	    plugins: [
 		ion({
-		    footer: {
+		    footer: [
+			{
 			footer.text: 'Built with spite, weaponized autism and plenty of swearing.',
-		    },
+			},
+			],
 		    ],
 		})
 	    ],
