@@ -19,9 +19,7 @@ export default defineConfig({
 	    plugins: [
 		ion({
 		    footer: [
-			{
 			footer.text: 'Built with spite, weaponized autism and plenty of swearing.',
-			},
 			],
 		    ],
 		})
