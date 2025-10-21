@@ -15,6 +15,7 @@ export default defineConfig({
 		light: './src/assets/logo-light.svg',
 		dark: './src/assets/logo-dark.svg',
 	    },
+	    favicon: './public/favicon.jpg',
 	    plugins: [
 		starlightThemeBlack({
 		    footerText: 'Built with spite, weaponized autism and plenty of swearing.',
