@@ -17,6 +17,7 @@ export default defineConfig({
 		dark: './src/assets/logo-dark.svg',
 	    },
 	    favicon: './src/assets/logo-dark.svg',
+	    lastUpdated: true,
 	    plugins: [
 		ion({
 		    footer: {
@@ -34,6 +35,7 @@ export default defineConfig({
 		    label: '[home] Home',
 		    link: '/',
 		},
+
 		{
 		    label: 'Minecraft',
 		    autogenerate: { directory: 'games/minecraft' },
