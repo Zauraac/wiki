@@ -38,11 +38,11 @@ export default defineConfig({
 
 		{
 		    label: 'Minecraft',
-		    autogenerate: { directory: 'games/minecraft' collased: true, },
+		    autogenerate: { directory: 'games/minecraft', collapsed: true, },
 		},
 		{
 		    label: 'Stardew Valley',
-		    autogenerate: { directory: 'games/stardew', collased: true, },
+		    autogenerate: { directory: 'games/stardew', collapsed: true, },
 		},
                 {
                     label: 'Services',
