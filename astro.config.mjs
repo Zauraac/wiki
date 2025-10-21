@@ -11,26 +11,30 @@ export default defineConfig({
     trailingSlash: "ignore",
     integrations: [
         starlight({
+            title: 'Zauraac.xyz',
 	    logo: {
 		light: './src/assets/logo-light.svg',
 		dark: './src/assets/logo-dark.svg',
 	    },
-	    favicon: './public/favicon.jpg',
+	    favicon: './src/assets/logo-dark.svg',
 	    plugins: [
 		ion({
-		    footer: [
-			footer.text: 'Built with spite, weaponized autism and plenty of swearing.',
-			],
+		    footer: {
+			text: 'Built with spite, weaponized autism and plenty of swearing.',
+		    },
 		    ],
-		})
+		}),
 	    ],
-            title: 'Zauraac - Wiki',
             tableOfContents: true,
             social: [
                 { icon: 'github', label: 'Source', href: 'https://github.com/Zauraac/wiki' },
 		{ icon: 'discord', label: 'Discord', href: 'https://discord.gg/invite/Nabv2D8' },
             ],
             sidebar: [
+		{
+		    label: '[home] Home',
+		    link: '/',
+		},
 		{
 		    label: 'Minecraft',
 		    autogenerate: { directory: 'games/minecraft' },
