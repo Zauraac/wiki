@@ -22,7 +22,6 @@ export default defineConfig({
 		    footer: {
 			text: 'Built with spite, weaponized autism and plenty of swearing.',
 		    },
-		    ],
 		}),
 	    ],
             tableOfContents: true,
